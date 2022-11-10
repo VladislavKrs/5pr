@@ -1,0 +1,72 @@
+div {
+    color: green;
+    margin-top: 15px;
+}
+
+.class_element {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px inset red;
+    background-color: black;
+    color: aqua;
+}
+
+#paragraf {
+    text-align: justify;
+    color: coral;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h2,
+p {
+    color: blue;
+    font-style: italic;
+    margin-left: 27px;
+    line-height: 85%;
+}
+
+.tag1 {
+    color: crimson;
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 15px;
+}
+.tag2 {
+    color: black;
+    background-color: cornsilk;
+}
+
+p b {
+    align-items: center;
+    color: brown;
+    letter-spacing: 5px;
+}
+
+span {
+    background-color: aliceblue;
+    color: black;
+    font-size: 19px;
+}
+div > span {
+    background-color: blueviolet;
+    color: white;
+    font-size: 45px;
+}
+
+b+i {
+    color: tomato;
+    font-size: 25px;
+}
+
+h4~p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    background-color: crimson;
+}
+
+a[href="https://www.youtube.com/"] {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: larger;
+    color: red;
+}
